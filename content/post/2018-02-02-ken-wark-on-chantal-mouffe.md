@@ -8,13 +8,13 @@ enclosure:
   https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/4648/9/248242106/898824744.mp4?token=1517606685-0x012eeffb845c6546839b82b0dc161d84cfdb7a8d
   56252691
   video/mp4
-guid: http://www.alden.life/?p=306
+guid: https://www.alden.life/?p=306
 id: 306
 title: Ken Wark on Chantal Mouffe
 url: /2018/02/02/ken-wark-on-chantal-mouffe/
 ---
 
-<img class="alignnone wp-image-308 size-large" src="http://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-1024x594.png" alt="" width="739" height="429" srcset="http://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-1024x594.png 1024w, http://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-300x174.png 300w, http://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-768x445.png 768w, http://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56.png 1440w" sizes="(max-width: 739px) 100vw, 739px" />
+<img class="alignnone wp-image-308 size-large" src="https://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-1024x594.png" alt="" width="739" height="429" srcset="https://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-1024x594.png 1024w, https://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-300x174.png 300w, https://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56-768x445.png 768w, https://www.alden.life/wp-content/uploads/2018/02/Screenshot-2018-02-02-15.23.56.png 1440w" sizes="(max-width: 739px) 100vw, 739px" />
 
 For my transcription exercise I wanted to pick something that was
 

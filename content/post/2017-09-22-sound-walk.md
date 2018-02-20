@@ -3,7 +3,7 @@ author: alden
 categories:
 - Sound and Video
 date: 2017-09-22
-guid: http://www.alden.life/?p=152
+guid: https://www.alden.life/?p=152
 id: 152
 title: Sound Walk
 url: /2017/09/22/sound-walk/

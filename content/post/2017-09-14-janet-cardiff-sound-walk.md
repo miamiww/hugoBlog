@@ -3,7 +3,7 @@ author: alden
 categories:
 - Sound and Video
 date: 2017-09-14
-guid: http://www.alden.life/?p=63
+guid: https://www.alden.life/?p=63
 id: 63
 title: Janet Cardiff Sound Walk and Reading Response
 url: /2017/09/14/janet-cardiff-sound-walk/

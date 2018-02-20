@@ -3,7 +3,7 @@ author: alden
 categories:
 - DigitalPractice
 date: 2017-11-16
-guid: http://www.alden.life/?p=291
+guid: https://www.alden.life/?p=291
 id: 291
 title: Make a Digital Public Space
 url: /2017/11/16/make-a-digital-public-space/

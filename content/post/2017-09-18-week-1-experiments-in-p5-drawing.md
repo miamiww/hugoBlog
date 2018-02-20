@@ -3,7 +3,7 @@ author: alden
 categories:
 - Computational Media
 date: 2017-09-18
-guid: http://www.alden.life/?p=71
+guid: https://www.alden.life/?p=71
 id: 71
 title: Experiments in P5 drawing
 url: /2017/09/18/week-1-experiments-in-p5-drawing/
@@ -11,13 +11,13 @@ url: /2017/09/18/week-1-experiments-in-p5-drawing/
 
 I started off by trying to make faces/icons in the style of the Netflix user icons.
 
-<img class="alignnone size-medium wp-image-73" src="http://www.alden.life/wp-content/uploads/2017/09/Netflix-300x300.png" alt="" width="300" height="300" srcset="http://www.alden.life/wp-content/uploads/2017/09/Netflix-300x300.png 300w, http://www.alden.life/wp-content/uploads/2017/09/Netflix-150x150.png 150w, http://www.alden.life/wp-content/uploads/2017/09/Netflix.png 400w" sizes="(max-width: 300px) 100vw, 300px" />
+<img class="alignnone size-medium wp-image-73" src="https://www.alden.life/wp-content/uploads/2017/09/Netflix-300x300.png" alt="" width="300" height="300" srcset="https://www.alden.life/wp-content/uploads/2017/09/Netflix-300x300.png 300w, https://www.alden.life/wp-content/uploads/2017/09/Netflix-150x150.png 150w, https://www.alden.life/wp-content/uploads/2017/09/Netflix.png 400w" sizes="(max-width: 300px) 100vw, 300px" />
 
 http://alpha.editor.p5js.org/alden/sketches/ByIzAYaq-
 
 Quickly I got bored with that so then I started trying to make patterns with simple shapes that could be optical illusions or tiled as a desktop background&#8230; or a website background 🙂  I used for loops to avoid copy/pasting all my code:
 
-<img class="alignnone size-medium wp-image-74" src="http://www.alden.life/wp-content/uploads/2017/09/Pattern1-300x300.png" alt="" width="300" height="300" srcset="http://www.alden.life/wp-content/uploads/2017/09/Pattern1-300x300.png 300w, http://www.alden.life/wp-content/uploads/2017/09/Pattern1-150x150.png 150w, http://www.alden.life/wp-content/uploads/2017/09/Pattern1.png 400w" sizes="(max-width: 300px) 100vw, 300px" />
+<img class="alignnone size-medium wp-image-74" src="https://www.alden.life/wp-content/uploads/2017/09/Pattern1-300x300.png" alt="" width="300" height="300" srcset="https://www.alden.life/wp-content/uploads/2017/09/Pattern1-300x300.png 300w, https://www.alden.life/wp-content/uploads/2017/09/Pattern1-150x150.png 150w, https://www.alden.life/wp-content/uploads/2017/09/Pattern1.png 400w" sizes="(max-width: 300px) 100vw, 300px" />
 
 http://alpha.editor.p5js.org/alden/sketches/Hyzy-5p9-
 
@@ -27,13 +27,13 @@ This led me to try to recreate this piece by Paul Nasca:
 
 Getting somewhere with using random() to change the shape of a black ellipse underneath.  Here is a static capture, in the browser rendering random() makes the implied motion literal.
 
-[<img class="alignnone size-medium wp-image-75" src="http://www.alden.life/wp-content/uploads/2017/09/Nasca-300x300.png" alt="" width="300" height="300" srcset="http://www.alden.life/wp-content/uploads/2017/09/Nasca-300x300.png 300w, http://www.alden.life/wp-content/uploads/2017/09/Nasca-150x150.png 150w, http://www.alden.life/wp-content/uploads/2017/09/Nasca.png 400w" sizes="(max-width: 300px) 100vw, 300px" />](http://alpha.editor.p5js.org/full/BJEiS5a5W)
+[<img class="alignnone size-medium wp-image-75" src="https://www.alden.life/wp-content/uploads/2017/09/Nasca-300x300.png" alt="" width="300" height="300" srcset="https://www.alden.life/wp-content/uploads/2017/09/Nasca-300x300.png 300w, https://www.alden.life/wp-content/uploads/2017/09/Nasca-150x150.png 150w, https://www.alden.life/wp-content/uploads/2017/09/Nasca.png 400w" sizes="(max-width: 300px) 100vw, 300px" />](http://alpha.editor.p5js.org/full/BJEiS5a5W)
 
 http://alpha.editor.p5js.org/alden/sketches/BJEiS5a5W
 
 I forgot the white part so I did it again, this time changing where the black and white circles are located underneath just slightly using random().
 
-[<img class="alignnone size-medium wp-image-76" src="http://www.alden.life/wp-content/uploads/2017/09/Nasca2-300x300.png" alt="" width="300" height="300" srcset="http://www.alden.life/wp-content/uploads/2017/09/Nasca2-300x300.png 300w, http://www.alden.life/wp-content/uploads/2017/09/Nasca2-150x150.png 150w, http://www.alden.life/wp-content/uploads/2017/09/Nasca2.png 400w" sizes="(max-width: 300px) 100vw, 300px" />](http://alpha.editor.p5js.org/full/Bkgjvq69b)
+[<img class="alignnone size-medium wp-image-76" src="https://www.alden.life/wp-content/uploads/2017/09/Nasca2-300x300.png" alt="" width="300" height="300" srcset="https://www.alden.life/wp-content/uploads/2017/09/Nasca2-300x300.png 300w, https://www.alden.life/wp-content/uploads/2017/09/Nasca2-150x150.png 150w, https://www.alden.life/wp-content/uploads/2017/09/Nasca2.png 400w" sizes="(max-width: 300px) 100vw, 300px" />](http://alpha.editor.p5js.org/full/Bkgjvq69b)
 
 http://alpha.editor.p5js.org/alden/sketches/Bkgjvq69b
 

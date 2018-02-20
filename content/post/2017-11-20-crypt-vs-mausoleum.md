@@ -3,7 +3,7 @@ author: alden
 categories:
 - Computational Media
 date: 2017-11-20
-guid: http://www.alden.life/?p=297
+guid: https://www.alden.life/?p=297
 id: 297
 title: Crypt vs Mausoleum
 url: /2017/11/20/crypt-vs-mausoleum/

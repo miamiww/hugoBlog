@@ -3,7 +3,7 @@ author: alden
 categories:
 - Computational Media
 date: 2017-10-30
-guid: http://www.alden.life/?p=275
+guid: https://www.alden.life/?p=275
 id: 275
 title: Button Game
 url: /2017/10/30/button-game/

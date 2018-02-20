@@ -3,7 +3,7 @@ author: alden
 categories:
 - Physical Computing
 date: 2017-11-01
-guid: http://www.alden.life/?p=278
+guid: https://www.alden.life/?p=278
 id: 278
 title: Haunted Dolls and Things
 url: /2017/11/01/haunted-dolls-and-things/

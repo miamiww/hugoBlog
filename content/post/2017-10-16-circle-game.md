@@ -3,7 +3,7 @@ author: alden
 categories:
 - Computational Media
 date: 2017-10-16
-guid: http://www.alden.life/?p=236
+guid: https://www.alden.life/?p=236
 id: 236
 title: Circle Game
 url: /2017/10/16/circle-game/

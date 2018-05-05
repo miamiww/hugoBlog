@@ -7,6 +7,7 @@ title: Algorithmic Decision Making in Bureaucracy, Public Policy, and The City
 url: 2018-03-07-algorithmic-decision-making
 ---
 [Here you can see the slides from my research presentation](https://www.dropbox.com/s/dcytcjdahfzpg76/Presentation1.pptx?dl=0)
+[And here is my executive summary](https://www.dropbox.com/s/5uy7p6wfp00qw8l/algorithmic%20decision%20making%20in%20bureaucracy.docx?dl=0)
 
 ## Reports, Research Papers, and Press Releases
 As a great resource for all of our classes' discussions on AI I want to point out first the AI Now [annual report](https://ainowinstitute.org/AI_Now_2017_Report.pdf). AI Now Institute is a research institute (within NYU! we can go talk to them) focused on interdisciplinary research on the social impacts of AI.

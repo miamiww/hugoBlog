@@ -1,9 +1,9 @@
-+++
-title = "Bad Pong"
-date = 2018-09-10T23:43:36-04:00
-draft = false 
-tags = []
-categories = ["Understanding Networks"]
-+++
-
-
+---
+author: alden
+categories:
+- Understanding Networks
+date: 2018-09-10
+title: Bad Pong
+draft: false
+url: /2018/09/10/bad-pong
+---

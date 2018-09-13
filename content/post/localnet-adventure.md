@@ -74,13 +74,18 @@ Basically, and this is important, programming full of gatekeeping, and shitty as
 
 
 ## Tips and tricks for the world outside of this simulation
-* `~/` references the home folder regardless of where you are in your computer's filesystem. the home folder is usually the one with your name or whatever you decided to call it when you first set up your computer. For me my home folder is /Users/aljones/. Thus `touch ~/newfile.txt` will create a new file called newfile.txt in /Users/aljones
+* `~/` references the home folder regardless of where you are in your computer's filesystem. the home folder is usually the one with your name or whatever you decided to call it when you first set up your computer. For me my home folder is /Users/aljones/. Thus
+```
+touch ~/newfile.txt
+```
+will create a new file called newfile.txt in /Users/aljones
 * if you decide to use bash, you can make a file called .bash_profile in the home folder that will run every time you open a terminal window. putting code in here is a great way to configure your workflow. you can see my bash profile [here](https://github.com/miamiww/importantdots/blob/master/.bash_profile)
-* git and github are great and wanting to use git was my rabbit hole into learning the command line. git, like all command line tools, is arcane and confusing.
+* tab completion is extremely useful. I'm not sure how to explain it well, check [here](https://en.wikipedia.org/wiki/Command-line_completion). Basically if you start typing out something on the command line and hit `tab` it will complete whatever you were typing or give you a list of options
+* git and github are great and wanting to use git was my rabbit hole into learning the command line. git, like all command line tools, is arcane and confusing and you can only get used to it by practice.
 * you might have heard the term IDE, which is Integrated Development Environment. This is usually an application for writing a specific programming language. Xcode is a classic example. Text editors like Atom straddle the line between general text editors and general purpose IDEs.
 * if you have atom installed you can open an entire directory and all of the files and subdirectores in it by navigating to that directory and typing `atom .` The period, `.` on the command line usually references "everything". `open .` will open the folder you are in in finder.
 * if you want to get more into servers, you can get an account at [digital ocean](https://www.digitalocean.com/) and set up a cheap remote virtual cloud server. you connect to the server the same as here, with `ssh`. Ask me or Shawn Van Every for more info.
-* tab completion is extremely useful. I'm not sure how to explain it well, check [here](https://en.wikipedia.org/wiki/Command-line_completion)
+
 
 ## References and Resources
 * American Artist’s [Black Gooey Universe](http://unbag.net/issue-2-end/black-gooey-universe/)

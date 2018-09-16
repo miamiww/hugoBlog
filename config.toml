@@ -20,11 +20,15 @@ title = "Alden's ITP Home"
     url = "http://alden.website"
     weight = -100
 
-[sitemap]
-    changefreq = "monthly"
-    filename = "sitemap.xml"
-    priority = 0.5
+# [sitemap]
+#     changefreq = "monthly"
+#     filename = "sitemap.xml"
+#     priority = 0.5
 
-[params]
-          disqusShortname = "blog.alden.website"
-          enableDisqus = true
+# [params]
+#           disqusShortname = "blog.alden.website"
+#           enableDisqus = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

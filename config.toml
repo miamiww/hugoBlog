@@ -1,1 +1,21 @@
 theme = 'hugo-kiera'
+baseURL = 'http://blog.alden.website'
+disablePathToLower = true
+enableEmoji = true
+languageCode = 'en-us'
+title = "Alden's ITP Home"
+[menu]
+  #
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "about this blog"
+  #   pre = "<i class='fa fa-heart'></i>"
+  #   url = "/about/"
+  #   weight = -110
+
+  [[menu.main]]
+    name = "Alden's main site"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "http://alden.website"
+    weight = -100

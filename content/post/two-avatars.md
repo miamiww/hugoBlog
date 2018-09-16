@@ -1,11 +1,12 @@
-+++
-title = "Two Avatars"
-author = "alden"
-date = 2018-09-11T00:39:23-04:00
-draft = false
-tags = []
-categories = ["Digital Avatars"]
-+++
+---
+author: alden
+categories:
+- Digital Avatars
+date: 2018-09-11
+title: Two Avatars
+draft: false
+url: /2018/09/11/two-avatars
+---
 
 Part of my interest in digital avatars stems from their existence for me as a place of identity building and actualization. Being able to create and visualize new images of myself has been empowering and intoxicating force (additionally for several years, until I was banned, I [consciously and intentionally, rather than through workaday self-curation] treated my Facebook as a sandbox identity separate from my physical meat body, which I think made me both alluring and confusing to acquaintances).
 ![*I actually got quite good](/images/Stardew1.gif)

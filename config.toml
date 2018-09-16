@@ -1,5 +1,5 @@
 theme = 'hugo-kiera'
-baseURL = 'http://blog.alden.website'
+baseURL = 'http://blog.alden.website/'
 disablePathToLower = true
 enableEmoji = true
 languageCode = 'en-us'
@@ -19,3 +19,12 @@ title = "Alden's ITP Home"
     pre = "<i class='fa fa-road'></i>"
     url = "http://alden.website"
     weight = -100
+
+[sitemap]
+    changefreq = "monthly"
+    filename = "sitemap.xml"
+    priority = 0.5
+
+[params]
+          disqusShortname = "blog.alden.website"
+          enableDisqus = true

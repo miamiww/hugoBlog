@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ partial "article" . }}
+{{ partial "single_footer" . }}
+
+{{ if .Site.Params.enableDisqus }}
+    {{ partial "disqus.html" . }}
+{{ end }}
+{{ end }}

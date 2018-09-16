@@ -55,6 +55,11 @@ use `man` to get a command's list of possible flags and their effects
 man rm
 ```
 
+if something is running and you want it to stop you can hit `control` and `c` at the same time to "c(k)ill" the process. this is typically written as
+```
+^c
+```
+
 ## Important and Useful Software
 * [Herbivore](github.com/samatt/herbivore/releases)
 * [Homebrew](https://brew.sh)
@@ -70,10 +75,14 @@ You'll hear a lot about text editors and developers give each other a ton of tox
 
 I would recommend either Atom or Visual Studio Code (both linked above). These are separate programs off the command line that are great and you can keep with them for forever. Command line text editors like Vim and Emacs are great and powerful but arcane and abstruse, don't listen to anyone who tell you that you need to use one of those. That being said I mostly use Vim and I love it, but it took me 3 months of a painful learning curve to get used to it. Nano is the basic command line text editor that comes with Mac and will be totally fine to use if you ever have to make little edits to a file from the command line.
 
-Basically, and this is important, programming full of gatekeeping, and shitty asshole developers want to make you feel bad or inferior because it reinforces to them just how magic and impressive or something that they are. Push back on that and just remember that it's always OK not to know something. Remember this when you too become a 1337 hacker.
+Basically, and this is important, programming is unfortunately full of gatekeeping, and shitty asshole developers want to make you feel bad or inferior because it reinforces to them just how magic and impressive or something that they are. Push back on that and just remember that it's always OK not to know something. Remember this when you too become a 1337 hacker.
 
 
 ## Tips and tricks for the world outside of this simulation
+* to go up a directory you can use
+```
+cd ..
+```
 * `~/` references the home folder regardless of where you are in your computer's filesystem. the home folder is usually the one with your name or whatever you decided to call it when you first set up your computer. For me my home folder is /Users/aljones/. Thus
 ```
 touch ~/newfile.txt
@@ -90,7 +99,7 @@ will create a new file called newfile.txt in /Users/aljones
 ## References and Resources
 * American Artist’s [Black Gooey Universe](http://unbag.net/issue-2-end/black-gooey-universe/)
 * [Command Line Bullshit](http://www.pgbovine.net/command-line-bullshittery.htm)
-* OverTheWire’s [Bandits](http://overthewire.org/wargames/bandit/)
+* OverTheWire’s [Bandit](http://overthewire.org/wargames/bandit/)
 * AT&T’s genuinely amazing [Guide To the Unix Operating System from the 1970s](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 * Dhruv Mehrota’s [Othernet](http://othernet.xyz/)
 * [NYCMesh](http://nycmesh.net/)

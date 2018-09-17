@@ -13,13 +13,14 @@
         {{ end }}
     </ul>
 </section>
+{{ if .Site.Params.enableDisqus }}
+    {{ partial "disqus.html" . }}
+{{ end }}
 {{"<!-- begin comments //-->" | safeHTML}}
 <!-- <section id="isso-thread"> -->
     <!-- {{ partial "dummycomments.html" . }} -->
 <!-- </section> -->
 
-{{ if .Site.Params.enableDisqus }}
-    {{ partial "disqus.html" . }}
-{{ end }}
+
 {{"<!-- end comments //-->" | safeHTML}}
 {{ end }}

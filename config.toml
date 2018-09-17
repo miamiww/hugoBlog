@@ -4,6 +4,7 @@ disablePathToLower = true
 enableEmoji = true
 languageCode = 'en-us'
 title = "Alden's ITP Home"
+comments = true
 [menu]
   #
   # [[menu.main]]
@@ -25,10 +26,10 @@ title = "Alden's ITP Home"
 #     filename = "sitemap.xml"
 #     priority = 0.5
 
-# [params]
-#           disqusShortname = "blog.alden.website"
-#           enableDisqus = true
+[params]
+    disqusShortname = "blogalden"
+    enableDisqus = true
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+   category = "categories"
+   tag = "tags"

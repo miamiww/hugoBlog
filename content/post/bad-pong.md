@@ -1,7 +1,7 @@
 ---
 author: alden
 categories:
-- Understanding Networks
+- understanding networks
 date: 2018-09-10
 title: Bad Pong
 draft: false

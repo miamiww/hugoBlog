@@ -14,8 +14,12 @@
     </ul>
 </section>
 {{"<!-- begin comments //-->" | safeHTML}}
-<section id="isso-thread">
+<!-- <section id="isso-thread"> -->
     <!-- {{ partial "dummycomments.html" . }} -->
-</section>
+<!-- </section> -->
+
+{{ if .Site.Params.enableDisqus }}
+    {{ partial "disqus.html" . }}
+{{ end }}
 {{"<!-- end comments //-->" | safeHTML}}
 {{ end }}

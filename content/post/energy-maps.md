@@ -1,7 +1,7 @@
 ---
 author: alden
 categories:
-- Temporary Expert
+- temporary expert
 date: 2018-09-11
 title: Nation State Energy Policy
 draft: false

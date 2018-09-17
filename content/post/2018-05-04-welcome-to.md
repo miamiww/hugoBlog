@@ -1,7 +1,7 @@
 ---
 author: alden
 categories:
-- ElectronicText
+- electronic text
 date: 2018-05-04
 title: Welcome To
 url: /2018/05/04/welcome-to

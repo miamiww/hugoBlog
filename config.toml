@@ -28,6 +28,7 @@ comments = true
 
 [params]
     disqusShortname = "blogalden"
+    DisqusShortname = "blogalden"
     enableDisqus = true
 
 [taxonomies]

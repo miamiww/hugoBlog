@@ -17,3 +17,8 @@ That a light bulb turns on is a horrendous miracle. Each and every electron that
 
 One map:
 https://graphcommons.com/graphs/dbabd3f8-5ed7-4da9-bd19-e883defd6641
+
+
+## Research Links
+* [The Economist - Geopolitics out of Energy](https://www.economist.com/special-report/2018/03/15/global-powers-need-to-take-the-geopolitics-out-of-energy)
+* [The Economist - Clean Energy Politics](https://www.economist.com/special-report/2018/03/15/clean-power-is-shaking-up-the-global-geopolitics-of-energy)

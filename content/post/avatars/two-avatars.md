@@ -1,7 +1,7 @@
 ---
 author: alden
 categories:
-- digital avatars
+- performative avatars
 date: 2018-09-11
 title: Two Avatars
 draft: false

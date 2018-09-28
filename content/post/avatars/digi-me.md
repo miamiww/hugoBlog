@@ -3,7 +3,7 @@ title = "Digi Me"
 date = 2018-09-17T22:50:19-04:00
 draft = false
 tags = []
-categories = ["digital avatars"]
+categories = ["performative avatars"]
 +++
 
 ![](/images/model_texture.jpg)

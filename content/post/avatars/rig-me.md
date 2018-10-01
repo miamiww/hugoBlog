@@ -1,4 +1,4 @@
-+++
+sc+++
 title = "Rig Me"
 date = 2018-09-25T15:07:58-04:00
 draft = false
@@ -20,4 +20,4 @@ Scattershot (I'm very sleepy today), responses to the readings:
 
 * I have a long-running idea that I have yet been able to turn into a project that connects modern narratives of robot uprising to male fears of female empowerment.
 * The presumed male only gaze of video game audiences is noxious, how to dismantle the myth of the male gamer?
-* I used to be a queer separatist and have mostly moved away from that political position but... well I don't feel like all video games need to be 'for' me as long as there are some that that are. Some in the queer political project believe in reshaping society to be inclusive of our identity, I just want to make space for us and have the space outside be nonthreatening. I sent the gender accessibility article to my partner and their only response was 'i hate that damn genderbread person'. I hate the damn genderbread person too, it's cutesy and obnoxious. I think the conclusion of the article makes a good point and the recommendations are well put. 
+* I used to be a queer separatist and have mostly moved away from that political position but... well I don't feel like all video games need to be 'for' me as long as there are some that that are. Some in the queer political project believe in reshaping society to be inclusive of our identity, I just want to make space for us and have the space outside be nonthreatening. I sent the gender accessibility article to my partner and their only response was 'i hate that damn genderbread person'. I hate the damn genderbread person too, it's cutesy and obnoxious. I think the conclusion of the article makes a good point and the recommendations are well put.

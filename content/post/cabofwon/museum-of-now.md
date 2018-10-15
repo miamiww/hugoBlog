@@ -6,4 +6,4 @@ tags = []
 categories = ["cabinets of wonder"]
 +++
 
-Whenever I imagine the world of the medium-term future, say 75-100 years from now, which I do reasonably often, I anticipate an intense future regret for the current time. 
+I was grateful for a reason to go to the Tenement Museum, I live a couple of blocks away and had been meaning to go but had never found the time. Whenever I imagine the world of the medium-term future, say 75-100 years from now, which I do reasonably often, I imagine an intense future regret for the current time. Maybe the kind of warm nostalgia combined with disgust, the way Americans now view the 1950s.

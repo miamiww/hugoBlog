@@ -5,3 +5,5 @@ draft = true
 tags = []
 categories = ["cabinets of wonder"]
 +++
+
+Whenever I imagine the world of the medium-term future, say 75-100 years from now, which I do reasonably often, I anticipate an intense future regret for the current time. 

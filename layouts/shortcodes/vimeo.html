@@ -5,6 +5,6 @@
   </div>
 {{ else }}
   <div class="{{ if len .Params | eq 2 }}{{ .Get 1 }}{{ else }}vimeo-container{{ end }}">
-    <iframe src="//player.vimeo.com/video/{{ .Get 0 }}" allowfullscreen></iframe>
+    <iframe src="//player.vimeo.com/video/{{ .Get 0 }}" style="top: 0; left: 0; width: 700px; height: 480px; border:0;" allowfullscreen></iframe>
   </div>
 {{ end }}

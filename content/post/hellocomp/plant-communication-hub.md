@@ -19,7 +19,7 @@ I also wanted wiring running to the plants that the hub was communicating with, 
 One thing that I don't like about my implementation is needing a button in order to start the device listening for speech. If I were to give this more polish, I would like to use a pressure sensor in the astroturf that could tell when a plant or someone's hand was on top of it, and have the device start autolistening whenever it detects pressure.
 
 Here you can watch me interviewing one of my plants, Gregorio, using the device:
-{{< vimeo 297114740 >}}
-The abover video can be downloaded directly [here](https://www.dropbox.com/s/fc8fyvpkl43jew1/EditedPlantTalk.mov?dl=0)
+{{< vimeo 297170802 >}}
+The above video can be downloaded directly [here](https://www.dropbox.com/s/fc8fyvpkl43jew1/EditedPlantTalk.mov?dl=0)
 
 All code for the project can be found [on my Github here](https://github.com/miamiww/HelloComputer/tree/master/plant_communication_hub)

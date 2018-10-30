@@ -7,6 +7,8 @@ categories = ["temporary expert"]
 +++
 
 [Running Bibliography](https://docs.google.com/document/d/1A3NMp_Mjhkn52Nzg7DnPkfN3idGWDFC_K3nbOphIoOI/edit?usp=sharing)
+[Daily Practice](https://www.youtube.com/channel/UC8lhEa0493-bISofsabhh4Q)
+
 
 [Propublica on Deadly Garbage Collection](https://www.propublica.org/article/trashed-inside-the-deadly-world-of-private-garbage-collection)
 [Mob and Garbage](http://mentalfloss.com/article/30738/why-mob-often-tied-garbage-industry)

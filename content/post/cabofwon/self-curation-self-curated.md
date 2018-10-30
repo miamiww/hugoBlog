@@ -1,7 +1,7 @@
 +++
 title = "Self Curation Self Curated"
 date = 2018-10-21T23:08:40-04:00
-draft = true
+draft = false
 tags = []
 categories = ["cabinets of wonder"]
 +++
@@ -12,4 +12,4 @@ Then there's seeing [Rebecca Fiebrink](https://www.doc.gold.ac.uk/~mas01rf/homep
 ![](/images/Cabinets/Naoshima.JPG)
 `Here I am biking back from the Chichu Art Museum`
 
-I have to stop there or my mind will be trapped in nostalgia the rest of the evening. I don't know how I would incorporate any of this into an exhibition. It might need to be more of a festival, since so many of these are performance works and performance artists. Several of them are dead, which would also be an issue. It might just have to be stories, my own oral history. I can't imagine many people would be interested in that however. 
+I have to stop there or my mind will be trapped in nostalgia the rest of the evening. I don't know how I would incorporate any of this into an exhibition. It might need to be more of a festival, since so many of these are performance works and performance artists. Several of them are dead, which would also be an issue. It might just have to be stories, my own oral history. I can't imagine many people would be interested in that however.

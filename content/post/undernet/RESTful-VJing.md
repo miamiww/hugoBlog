@@ -14,7 +14,7 @@ For these the controls would be over
 * shape speed
 * background color
 * shape color
-* shapes being currently displayed (ellipse, squiggle, triangle, rectangle
+* shapes being currently displayed (ellipse, squiggle, triangle, rectangle, arc)
 
 Beverly drew a very nice diagram of the whole system:
 ![](https://itp.beverlychou.com/assets/und-networks/REST-system-diagram-for-VJ.jpg)

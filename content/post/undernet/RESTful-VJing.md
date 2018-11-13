@@ -18,3 +18,55 @@ For these the controls would be over
 
 Beverly drew a very nice diagram of the whole system:
 ![](https://itp.beverlychou.com/assets/und-networks/REST-system-diagram-for-VJ.jpg)
+
+### API Specification
+
+#### switch the modes
+* value can be 0 for off entirely, 1 for GIF mode, 2 for visual mode
+* on/off: `POST /mode/{val}`
+
+#### GIF mode
+* keyword: `POST /gif/{keyword}`
+
+
+#### Visual Mode
+* speed: `POST /visuals/speed/{value}`
+  * value between 40 and 180 to correspond to common BPMs
+* background color: `POST /visuals/background?{h,s,l}`
+  * e.g. `/visuals/background?h=300&s=50&l=50`
+* shape color: `POST /visuals/shapecolor?{h,s,l}`
+  * same as above
+* shapes being displayed `POST /visuals/shapes?{shape=bool}/`
+  * e.g. `/visuals/shapes?triangle=0&ellipse=1&squiggle=0&rectangle=1&arc=1`
+
+#### Get Current state
+* get all current features, return the JSON of current features `GET /state/`
+* this also allows for GIF url from giphy to be seen by controller `GET /gifurl/`
+
+
+```
+{
+  "mode": {0,1,2},
+  "keyword": {string},
+  "gifurl": {url},
+  "speed": {40:180},
+  "background color": {
+    "h": {0-360},
+    "s": {0-100},
+    "l": {0-100}
+  },
+  "shape color": {
+    "h": {0-360},
+    "s": {0-100},
+    "l": {0-100}
+  },
+  "shapes being displayed": {
+    "triangle": {bool}
+    "ellipse": {bool}
+    "squiggle": {bool}
+    "rectangle": {bool}
+    "arc": {bool}
+  },
+  "errors":{err,message}
+}
+```

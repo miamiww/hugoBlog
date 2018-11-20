@@ -1,7 +1,7 @@
 +++
 title = "The Ongoing Now"
 date = 2018-11-18T02:43:10-05:00
-draft = true
+draft = false
 tags = []
 categories = ["temporary expert"]
 +++

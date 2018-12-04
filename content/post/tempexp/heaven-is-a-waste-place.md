@@ -7,3 +7,4 @@ categories = ["temporary expert"]
 +++
 
 _"In the end everything's garbage"_ - Nick DiMola
+![](/images/TempExp/trash/Logo2_text.svg)

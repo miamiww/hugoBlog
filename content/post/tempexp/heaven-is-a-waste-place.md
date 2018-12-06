@@ -10,7 +10,7 @@ _"In the end everything's garbage"_ - Nick DiMola (one of my experts)
 
 _"Trash carries dystopia within"_ - Maite Zubiaurre
 
-![](/images/TempExp/trash/Logo2_text.svg)
+![](/images/TempExp/trash/Logo.png)
 
 In trying to step back and synthesize my research I had to step one layer farther and re-ask myself: what have my research questions been and how have I made the connections that I've made?
 
@@ -65,7 +65,7 @@ In the process of attempting answers to these questions I reached the following 
 
 * The the global garbage system itself is overwhelmingly complex. It makes me sick and depressed. I start crying when I think about the number of shipping containers full of waste plastics over the ocean at any time.
 
-* The layers of abstraction and complexities of the global systems in garbage make a systemic subversive intervention difficult. I believe that exaggeration of the features of the system might be a possible lever, and overidentification with the corporations moving in the garbage space seemed like an in to that exageration. An overidentified corporation is a cult. 
+* The layers of abstraction and complexities of the global systems in garbage make a systemic subversive intervention difficult. I believe that exaggeration of the features of the system might be a possible lever, and overidentification with the corporations moving in the garbage space seemed like an in to that exageration. An overidentified corporation is a cult.
 
 ### Research process
 UNDER CONSTRUCTION

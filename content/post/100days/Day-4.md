@@ -1,5 +1,5 @@
 +++
-title = "100 Days of Shodan Stories Day 4"
+title = "100 Days of Shodan Stories Day 4: Television in Spain, Firmware Hacking in Palestine, Linux Kernels, Clone Bombs, and 14 Years of Passion"
 date = 2019-01-07T12:08:21-05:00
 draft = false
 tags = []
@@ -68,17 +68,17 @@ I've now figured it all out but gosh what a story.
 I wouldn't recommend going to www.dreamgaza.com now, it redirects you to a malware site that could probably fill out a blog entry of its own.
 But checking for it on [The Internet Archive's Wayback Machine](https://archive.org/web/) I found that from 2006 to 2013 it was a [forum for Palestinian Dreambox enthusiasts](https://web.archive.org/web/20120921235706/http://www.dreamgaza.com:80/vb/) who liked to tinker with their machine's linux-based firmware.
 ![](/images/100Days/Day4/dreamgaza.png)
-At their height they had about 60,000 members total, but it seemed like active membership spiked in 2008 and then slowly declined over the next couple of years. They talked about Islamic books, Palestinian news, 3D rendering technology, sports (there were a lot of [FC Barcelona](https://en.wikipedia.org/wiki/FC_Barcelona) fans), space exploration, satellites' hardware, birdwatching, but mostly they talked about what brought them together: linux and dreambox firmware and the TV that they watched with their hacked dreamboxes. They would also share downloads of TV shows they recorded with their dreamboxes, which seems to be one of the reasons for hacking the dreambox in the first place. I wish I could read Arabic because Google translate is a little iffy, but it seems like they had a great community.
+At their height they had about 60,000 members total, but it seemed like active membership spiked in 2008 and then slowly declined over the next couple of years. They talked about Islamic books, Palestinian news, 3D rendering technology, sports (there were a lot of [FC Barcelona](https://en.wikipedia.org/wiki/FC_Barcelona) fans), space exploration, satellites' hardware, birdwatching, but mostly they talked about what brought them together: linux, Dreambox firmware, and the TV that they watched with their hacked Dreamboxes. They would also share downloads of TV shows they recorded with their Dreamboxes, which seems to be one of the reasons for hacking the Dreambox in the first place. I wish I could read Arabic because Google translate is a little iffy, but it seems like they had a great community.
 
 
 
 #### The Gemini Project
 ![](/images/100Days/Day4/GeminiProject.png)
-[The Gemini Project](http://blue-panel.com) was a group of linux hackers who [make and distribute](http://wiki.blue-panel.com) their own dreambox firmware.
+[The Gemini Project](http://blue-panel.com) was a group of linux hackers who [made and distributed](http://wiki.blue-panel.com) their own Dreambox firmware.
 ![](/images/100Days/Day4/IHaveADreambox.png)
 14 years of passion... I got emotional thinking about it. Suddenly I felt the wound of proprietary closed systems, there's no communities forming around hacking your Amazon Echo, no joy in tinkering with your iPhone's operating system, no feeling of ownership of or passion for your tool. At least that I know of! Maybe I'll find some.
 
-So I have some answers: this machine I connected to was running a version of the dreambox firmware that had been made by the Gemini Project, which had then been futzed with by the users of the Dream Gaza forum.
+So I have some answers: this machine I connected to was running a version of the Dreambox firmware that had been made by the Gemini Project, which had then been futzed with by the users of the Dream Gaza forum.
 
 
 #### The Clone Bomb
@@ -89,6 +89,6 @@ But why this firmware, in 2019, so many years since Dream Gaza has existed? I ha
 3. A [post on a satellite TV enthusiasts forum from April 2008](https://www.rdi-board.com/forum/rdi-international/rdi-english/67719-warning-dreambox-clone-users)
 
 ![](/images/100Days/Day4/clones.png)
-As far as I can tell, Dream Multimedia knew that users were out there copying their firmware and loading it onto fake dreamboxes, which people call "clones", so they put in a clone/time bomb into their firmware release in 2008 that would break the firmware if it were loaded onto one of these clones. The Gemini Group didn't take out the bomb in their release of the firmware for whatever reason, so members of the Dream Gaza forum took out the bomb and put in kernel check that always runs on login to see if there is a bomb in that version of the firmware. This led a lot of people to go to the forum in mid 2008 to get that version of the firmware that has the kernel bomb check. And that firmware version is what this person in Spain is using, 10 years later.
+As far as I can tell, Dream Multimedia knew that users were out there copying their firmware and loading it onto fake Dreamboxes, which people call "clones", so they put in a clone/time bomb into their firmware release in 2008 that would break the firmware if it were loaded onto one of these clones. The Gemini Group didn't take out the bomb in their release of the firmware for whatever reason, so members of the Dream Gaza forum took out the bomb and put in kernel check that always runs on login to see if there is a bomb in that version of the firmware. This led a lot of people to go to the forum in mid 2008 to get that version of the firmware that has the kernel bomb check. And that firmware version is what this person in Spain is using, 10 years later.
 
 I wonder what they're watching. See you tomorrow.

@@ -1,5 +1,5 @@
 +++
-title = "100 Days of Shodan Stories Day 2"
+title = "100 Days of Shodan Stories Day 2: Joann Fabric's Sinister Plot"
 date = 2019-01-05T15:46:52-05:00
 draft = false
 tags = []
@@ -55,7 +55,7 @@ What's gpvpn.joann.com? Looking into it GVPN seems to stand for Global Protectio
 There are getting to be just too many threads to untangle here.
 
 
-Here is that port scan from the original IP.
+Here is that port scan from the original IP. [Port 666](https://www.speedguide.net/port.php?port=666) looks suspicious...
 ```
 Nmap scan report for i.joann.com (208.83.32.213)
 Host is up (0.075s latency).

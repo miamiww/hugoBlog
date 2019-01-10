@@ -1,5 +1,5 @@
 +++
-title = "100 Days of Shodan Stories Day 4: Television in Spain, Firmware Hacking in Palestine, Linux Kernels, Clone Bombs, and 14 Years of Passion"
+title = "Shodan Stories Day 4: Television in Spain, Firmware Hacking in Palestine, Linux Kernels, Clone Bombs, and 14 Years of Passion"
 date = 2019-01-07T12:08:21-05:00
 draft = false
 tags = []

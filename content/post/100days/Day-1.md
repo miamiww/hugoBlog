@@ -1,5 +1,5 @@
 +++
-title = "100 Days of Shodan Stories Day 1"
+title = "Shodan Stories Day 1"
 date = 2019-01-04T11:06:35-05:00
 draft = false
 tags = []

@@ -10,7 +10,7 @@ Someone tried to phish me yesterday via text from a Los Vegas phone number. Fort
 ![](/images/100Days/Day7/Phisher.png)
 ### Someone Trying to Phish Me on 146.120.89.201
 
-I started out checking both номе.рф and xn--e1ance.xn--p1ai, which is the address the text message actually links to. Possibly because .рф and xn--p1ai seem like [rare top level domains](https://cctld.ru/en/), `nslookup` and `whois` didn't give me very interesting results. Apparently .xn--p1ai is an "administrative group" of .рф
+I started out checking both номе.рф and xn--e1ance.xn--p1ai, which is the address the text message actually links to. In case you are wondering, and don't want to read further, номе.рф is save to go to but xn--e1ance.xn--p1ai is definitely not. Possibly because .рф and xn--p1ai seem like [rare top level domains](https://cctld.ru/en/), `nslookup` and `whois` didn't give me very interesting results. Apparently .xn--p1ai is an "administrative group" of .рф
 
 ```
 👻🌵✨$ whois xn--e1ance.xn--p1ai
@@ -112,7 +112,7 @@ traceroute to xn--e1ance.xn--p1ai (146.120.89.201), 64 hops max, 52 byte packets
 21  hn4-kh.ukrnames.com (146.120.89.200)  126.725 ms  125.446 ms  127.229 ms
 22  hosting18.ukrnames.com (146.120.89.201)  123.240 ms  123.425 ms  124.552 ms
 ```
-I'm sure that [ukrnames](https://www.ukrnames.com/) is totally legit and aboveboard as a web hosting service but I couldn't help being reminded of a conference talk I had been to by [Brannon Dorsey](https://radicalnetworks.org/archives/2017/participants/brannon-dorsey/) talking about how Ukranian hosting services were the only way to completely anonymously buy web hosting services via crypto currencies. This IP [shows up on Shodan](https://www.shodan.io/host/146.120.89.201) being in the domain of [Alfa Telecom](http://alfatelecom.cz/) in the Czech Republic. Using `nmap` reveals that they've got a lot going on.
+I'm sure that [ukrnames](https://www.ukrnames.com/) is totally legit and aboveboard as a web hosting service but I couldn't help being reminded of a conference talk I had been to by [Brannon Dorsey](https://radicalnetworks.org/archives/2017/participants/brannon-dorsey/) talking about how Ukranian hosting services were the only way to completely anonymously buy web hosting via crypto currencies. This IP [shows up on Shodan](https://www.shodan.io/host/146.120.89.201) being in the domain of [Alfa Telecom](http://alfatelecom.cz/) in the Czech Republic. Using `nmap` reveals that they've got a lot going on.
 
 ```
 👻🌵✨$ nmap -p- 146.120.89.201

@@ -10,7 +10,7 @@ Someone tried to phish me yesterday via text from a Los Vegas phone number. Fort
 ![](/images/100Days/Day7/Phisher.png)
 ### Someone Trying to Phish Me on 146.120.89.201
 
-I started out checking both номе.рф and xn--e1ance.xn--p1ai, which is the address the text message actually links to. In case you are wondering, and don't want to read further, номе.рф is save to go to but xn--e1ance.xn--p1ai is definitely not. Possibly because .рф and xn--p1ai seem like [rare top level domains](https://cctld.ru/en/), `nslookup` and `whois` didn't give me very interesting results. Apparently .xn--p1ai is an "administrative group" of .рф
+I started out checking both номе.рф and xn--e1ance.xn--p1ai, which is the address the text message actually links to. In case you are wondering, and don't want to read further, номе.рф is safe to go to in a browser but xn--e1ance.xn--p1ai is definitely not. Possibly because .рф and xn--p1ai seem like [rare top level domains](https://cctld.ru/en/), `nslookup` and `whois` didn't give me very interesting results. Apparently .xn--p1ai is an "administrative group" of .рф
 
 ```
 👻🌵✨$ whois xn--e1ance.xn--p1ai

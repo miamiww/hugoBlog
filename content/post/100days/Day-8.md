@@ -37,6 +37,6 @@ Visiting nanopool.org it was suddenly so clear: ethereum mining! _of course!_ Af
 ![](/images/100Days/Day8/nanopool2.png)
 It seems like nanopool has quite the operation, with 44,226 miners, of which I had only found one.
 
-One last point that is interesting here: from `nmap` I saw that the IP is registered under 186-90-40-229.genericrev.cantv.net. [CANTV](http://cantv.net/) is the [nationalized internet service of the Venezuelan government](https://en.wikipedia.org/wiki/CANTV). I tried to find if they were offering any cloud computing services, but it didn't seem like they were, meaning that this IP is probably connected to somebody's home, running 11 GPUs. That makes sense, since the costs of mining off of virtual machines might be prohibitive.
+One last point that is interesting here: from `nmap` I saw that the IP is registered under 186-90-40-229.genericrev.cantv.net. [CANTV](http://cantv.net/) is the [nationalized internet service of the Venezuelan government](https://en.wikipedia.org/wiki/CANTV). I tried to find if they were offering any cloud computing services, but I couldn't tell, meaning that this IP is probably connected to somebody's home, running a machine with 11 GPUs. That makes sense, since the costs of mining off of virtual machines might be prohibitive, unless nationalized internet costs are just that cheap.
 
-Why AMD GPUs and not Nvidia? And how does this kind of pooling work? See you tomorrow.
+But why AMD GPUs and not Nvidia? And how does this kind of pooling work? See you tomorrow.

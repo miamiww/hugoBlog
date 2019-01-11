@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 8: Mining Etherium in Caracas"
+title = "Shodan Stories Day 8: Mining Etherium in Caracas, AMD GPUs, and Taking a Dip in the Nanopool"
 date = 2019-01-11T16:55:45-05:00
 draft = false
 tags = []

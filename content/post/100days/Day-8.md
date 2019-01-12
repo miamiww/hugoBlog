@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 8: Mining Etherium in Caracas, AMD GPUs, and Taking a Dip in the Nanopool"
+title = "Shodan Stories Day 8: Mining Ethereum in Caracas, AMD GPUs, and Taking a Dip in the Nanopool"
 date = 2019-01-11T16:55:45-05:00
 draft = false
 tags = []
@@ -9,7 +9,7 @@ categories = ["100 days"]
 A couple of days ago I noticed some people searching on Shodan for "ETH: total speed". That didn't mean anything to me so I took note of it and today decided to dig in.
 
 
-## An Etherium Miner or 186.90.40.229
+## An Ethereum Miner on 186.90.40.229
 Almost all the results I found for this search in Shodan were running off of port 3001 (the ones that weren't were on 9001), and tended to be in Russia, South Korea, or Ukraine. I chose one of the first IPs I found, this one from Caracas in Venezuela. I was initially pretty confused by what I was looking at when visiting it in a browser.
 ![](/images/100Days/Day8/ETH1.png)
 What exactly is going on here? It looks like terminal output, but in a browser. Someone is tracking speeds of their 11 Radeon GPUs for discreet jobs, but even after googling "ETH: total speed" it wasn't totaly clear to me what I was seeing. This server had two other ports open: 2021 and 2022, but each of those just prompted logins when I tried to visit them.

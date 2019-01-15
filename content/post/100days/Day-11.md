@@ -1,5 +1,5 @@
 +++
-title = "Day 11"
+title = "Shodan Stories Day 11: Machine Learning in Beijing and the Mysteries of 126 and 163"
 date = 2019-01-14T14:27:56-05:00
 draft = false
 tags = []
@@ -34,58 +34,9 @@ So now I really wanted to know about the history of this blog and I got kind of 
 There's a signup and login (?) at the top right I thought about trying to join but decided that that would be too weird also. I tried probing all the other open ports and one of them yielded returns, 8080, which seems to be hosting an entirely different, though related, website.
 ![](/images/100Days/Day11/wiki.png)
 This is kind of like a documentation website that goes through many specific tools than in the blog, which does more deep dives on things like processes and methodologies.
-```
-➜  1Semester git:(master) ✗ traceroute 24.145.185.35.bc.googleusercontent.com
-traceroute to 24.145.185.35.bc.googleusercontent.com (35.185.145.24), 64 hops max, 52 byte packets
- 1  192.168.0.1 (192.168.0.1)  1.379 ms  1.358 ms  1.047 ms
- 2  * * *
- 3  be61.nycynymy01h.nyc.rr.com (68.173.202.72)  14.620 ms  11.265 ms  14.465 ms
- 4  agg113.nyclnyrg01r.nyc.rr.com (68.173.198.40)  16.134 ms  19.683 ms  14.992 ms
- 5  bu-ether29.nwrknjmd67w-bcr00.tbone.rr.com (107.14.19.24)  20.367 ms  8.660 ms  15.925 ms
- 6  66.109.5.138 (66.109.5.138)  18.707 ms
-    bu-ether12.nycmny837aw-bcr00.tbone.rr.com (66.109.6.27)  19.087 ms
-    66.109.5.138 (66.109.5.138)  17.919 ms
- 7  0.ae4.pr0.nyc20.tbone.rr.com (66.109.1.35)  12.444 ms
-    0.ae0.pr0.nyc20.tbone.rr.com (66.109.6.157)  15.421 ms
-    0.ae4.pr0.nyc20.tbone.rr.com (66.109.1.35)  19.376 ms
- 8  ix-ae-10-0.tcore1.n75-new-york.as6453.net (66.110.96.13)  9.780 ms  11.807 ms
-    ix-ae-6-0.tcore1.n75-new-york.as6453.net (66.110.96.53)  21.147 ms
- 9  72.14.195.232 (72.14.195.232)  15.867 ms  14.708 ms  13.809 ms
-10  74.125.251.231 (74.125.251.231)  15.645 ms  39.872 ms
-    74.125.251.227 (74.125.251.227)  11.423 ms
-11  108.170.248.20 (108.170.248.20)  16.561 ms
-    108.170.248.99 (108.170.248.99)  14.053 ms
-    108.170.248.20 (108.170.248.20)  27.425 ms
-12  108.170.226.123 (108.170.226.123)  13.607 ms
-    209.85.255.27 (209.85.255.27)  12.391 ms
-    209.85.254.139 (209.85.254.139)  12.974 ms
-13  216.239.58.254 (216.239.58.254)  33.820 ms
-    216.239.57.136 (216.239.57.136)  36.191 ms
-    216.239.57.196 (216.239.57.196)  53.178 ms
-14  209.85.241.43 (209.85.241.43)  100.000 ms  113.480 ms
-    72.14.239.209 (72.14.239.209)  117.318 ms
-15  72.14.239.30 (72.14.239.30)  93.174 ms
-    66.249.94.92 (66.249.94.92)  93.079 ms
-    72.14.239.155 (72.14.239.155)  99.012 ms
-16  108.170.234.21 (108.170.234.21)  220.932 ms
-    209.85.249.41 (209.85.249.41)  206.196 ms
-    108.170.234.21 (108.170.234.21)  206.989 ms
-17  209.85.245.48 (209.85.245.48)  203.529 ms
-    72.14.233.35 (72.14.233.35)  214.472 ms
-    66.249.95.76 (66.249.95.76)  204.603 ms
-18  216.239.40.29 (216.239.40.29)  211.199 ms
-    74.125.252.245 (74.125.252.245)  198.960 ms  222.302 ms
-19  * * *
-20  * * *
-21  * * *
-22  * * *
-23  * * *
-24  * * *
-25  * * *
-26  * * *
-27  * * *
-28  24.145.185.35.bc.googleusercontent.com (35.185.145.24)  201.603 ms  206.988 ms  207.457 ms
-```
+Now I noticed that there's the friendly Github Octocat logo in the corner (which even waves when you hover over it), which I was hoping would be Leo's Github page. It was not a link to Leo's Github page. Instead it's a link to git.riverrun.cn.
+![](/images/100Days/Day11/riverrun.png)
+This is a [Gogs-based](https://gogs.io/docs) self hosted Git service, so it's essentially someone's private version of Github. riverrun.cn itself does not appear to exist as a website, and instead prompts a download of a blank file whenever it is visted in a browser, but it does have a WhoIS entry.
 
 ```
 Domain Name: riverrun.cn
@@ -101,67 +52,13 @@ Registration Time: 2014-07-03 17:14:08
 Expiration Time: 2019-07-03 17:14:08
 DNSSEC: unsigned
 ```
+163.com, I'd seen that before! As embedded javascript on the first web page.
+![](/images/100Days/Day11/163.png)
 
-```
-Domain Name: 163.com
-Registry Domain ID: 473619_DOMAIN_COM-VRSN
-Registrar WHOIS Server: whois.markmonitor.com
-Registrar URL: http://www.markmonitor.com
-Updated Date: 2018-08-13T02:16:31-0700
-Creation Date: 1997-09-14T21:00:00-0700
-Registrar Registration Expiration Date: 2020-09-13T00:00:00-0700
-Registrar: MarkMonitor, Inc.
-Registrar IANA ID: 292
-Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
-Registrar Abuse Contact Phone: +1.2083895740
-Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
-Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
-Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
-Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
-Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
-Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
-Registrant Organization: Guangzhou NetEase Computer System Co., Ltd
-Registrant State/Province: Guangdong
-Registrant Country: CN
-Admin Organization: Guangzhou NetEase Computer System Co., Ltd
-Admin State/Province: Guangdong
-Admin Country: CN
-Tech Organization: Guangzhou NetEase Computer System Co., Ltd
-Tech State/Province: Guangdong
-Tech Country: CN
-Name Server: ns4.nease.net
-Name Server: ns3.nease.net
-Name Server: ns6.nease.net
-Name Server: ns1.nease.net
-Name Server: ns2.166.com
-Name Server: ns8.166.com
-Name Server: ns5.nease.net
-DNSSEC: unsigned
-URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2019-01-14T16:40:25-0800 <<<
-```
+Now at this point I did two deep dives. One to find out more about those 126 and 163 urls, and the next to find out more about Leo and guangmin001@163.com.
 
-```
-➜  sandbox git:(master) ✗ host 163.com
-163.com has address 123.58.180.8
-163.com has address 123.58.180.7
-163.com mail is handled by 10 163mx02.mxmail.netease.com.
-163.com mail is handled by 10 163mx03.mxmail.netease.com.
-163.com mail is handled by 50 163mx00.mxmail.netease.com.
-163.com mail is handled by 10 163mx01.mxmail.netease.com.
-```
+The first might be the most interesting, and the [Quora question I'm linking to has a pretty decent answer](https://www.quora.com/What-does-126-and-163-mean-in-Chinese-language). 163 and 126 were commonly used numbers back in China's dialup era to connect to the web. The numbers still connote "internet service" to people even though dialup is no longer used, and 163.com is one of the most commonly used email service provider (much like gmail for many Americans), owned by a company called [NetEase](https://en.wikipedia.org/wiki/NetEase). NetEase seems a little bit more like Verizon than Google though, the company has a wide reaching scope and a successful email hosting operation but doesn't seem to be on the forefront of innovation and growth. Their main domain property, [www.163.com](https://www.163.com/), even looks a little bit like yahoo.com. They do have a successful music streaming service, and that's where those nonfunctioning music embeds in Leo's website were pointing toward.'
 
-```
-➜  sandbox git:(master) ✗ host music.163.com
-music.163.com has address 103.65.41.125
-music.163.com has address 103.65.41.126
-```
+The second got a little too doxxy for me to want to write about too much. But I found that Leo seemingly has a penchant for raw IPs over domain names, and Guangmin, in addition to running the Riverrun Network, created a protocol for streaming television which is now used by a service called [Feng Mi](https://www.fengmi.tv/).
 
-```
-➜  sandbox git:(master) ✗ host 163yun.com
-163yun.com has address 59.111.163.236
-163yun.com mail is handled by 5 hzmx01.mxmail.netease.com.
-163yun.com mail is handled by 10 hzmx02.mxmail.netease.com.
-```
-
-[Finally I figured it out, sort of.](https://www.quora.com/What-does-126-and-163-mean-in-Chinese-language)
+But what was the MondoDB database being used for in the first place? My guess is probably to manage accounts on that login thing I ignored. But why make an account on someone's hidden and half-finished blog? See you tomorrow.

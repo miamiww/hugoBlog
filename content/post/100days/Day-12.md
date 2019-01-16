@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 12: Influencer to Brand Marketplace and Authentic Content Platform in San Jose, Damaging My Klout Score via Unauthorized API Calls, GraphQL IDEs, and the Center of the Internet"
+title = "Shodan Stories Day 12: Influencer to Brand Marketplace and Authentic Content Platform in St Louis, Damaging My Klout Score via Unauthorized API Calls, GraphQL IDEs, and the Center of the Internet"
 date = 2019-01-15T20:20:27-05:00
 draft = false
 tags = []
@@ -8,7 +8,7 @@ categories = ["100 days"]
 
 Today I saw a top search for something called "GraphQL". Taking the bait on the unknown, I started looking.
 
-## A Startup Named Zipline's API Testing Staging Space on 184.169.231.191
+## A Startup Named Zipline's API Staging Space on 184.169.231.191
 The first thing I noticed about GraphQL's distribution on Shodan was that it was all in the US. The second was that it was, by a huge margin, all in Ashburn, Virginia. After doing a quick google search I figured out that this is certainly because [Amazon has so many datacenters there](https://www.washingtonpost.com/news/capital-business/wp/2014/03/05/why-ashburn-va-is-the-center-of-the-internet/?noredirect=on&utm_term=.aad8cd0d8ec8), and every GraphQL service seemed to be running on an [Amazon EC2 instance](https://aws.amazon.com/ec2/). After doing a little more Googling I found that [GraphQL](https://en.wikipedia.org/wiki/GraphQL) is an API development tool and has two major IDEs: [GraphiQL](https://github.com/graphql/graphiql) and [GraphQL Playground](https://www.prisma.io/blog/introducing-graphql-playground-f1e0a018f05d/). These IDEs run in the browser, much like Jupyter Notebooks, and, when running on an Amazon EC2 instance, allow you to test and develop your server's API... from anywhere. Unfortunately it seems that if you aren't careful that means that I can test and write your API from anywhere too! I picked one of the few IPs that wasn't in Ashburn, this one in San Jose, hoping that it would belong to a goofy startup.
 ![](/images/100Days/Day12/graphql.png)
 They were running the GraphiQL IDE on this IP, just off of port 443, the https port. Now you'll see there in that screencapture I was trying to figure out how to make a query in GraphQL, and I wasn't choosing "topInfluencer" at random. GraphiQL will either autocomplete or give suggestions for terms if you hit control+space, so I found it pretty easy to start figuring out a bit about their API based on the autosuggestions it was giving me. I had more help, this coming from the IP's SSL certificate (remember that this is running off of port 443, so it has an https certificate - which unfortunately for them wasn't working which gave me the idea to check it).
@@ -29,7 +29,7 @@ Certificate:
 ```
 You can see from that last line there that this certificate is under something called staging.zipline.co. Checking out zipline.co...
 ![](/images/100Days/Day12/zipline.png)
-Yes!! A goofy startup, just like I dreamed of. So what do they do?
+Yes!! A goofy startup, just like I dreamed of. According to their website they are located in St Louis, so the San Jose location must just be a datacenter. So what do they do?
 ![](/images/100Days/Day12/ziplineabout.png)
 Oh uh... okay
 ![](/images/100Days/Day12/ziplineabout2.png)

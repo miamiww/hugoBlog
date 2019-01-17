@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 14"
+title = "Shodan Stories Day 14: Startling Strangers in Vreden, DIY Home Automation, and the German Word for Waking Up in the Middle of the Night with the Realization That You Left Your Server Unsecured"
 date = 2019-01-17T07:04:32-08:00
 draft = false
 tags = []

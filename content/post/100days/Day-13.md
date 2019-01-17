@@ -51,7 +51,7 @@ Acutally I was able to answer that second question. Since `host` indicates that 
 👻🌵🔮 $ nc 163.44.163.77 25
 220 st014.satellite-mail.net ESMTP unknown
 ```
-I checked every IP and they are all, except for ip001 which is connected to itself, connected to st014.satellite-mail.net. What's that you might ask? A reasonable question.
+I checked every IP and they are all connected to st014.satellite-mail.net. What's that you might ask? A reasonable question.
 ```
 👻🌵🔮 $ host st014.satellite-mail.net
 st014.satellite-mail.net has address 150.95.138.218

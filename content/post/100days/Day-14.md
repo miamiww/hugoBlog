@@ -9,7 +9,7 @@ categories = ["100 days"]
 This is another find inspired by recent searches on Shodan. I saw searches "FHEM Home Automation" and I needed to know more.
 
 ## Fhem Home Automation Server on 85.190.248.171
-Every single result for FHEM was from Germany. So I picked the first one and got going. Looking up [FHEM](https://www.fhem.de/) first on Google I found that it is an open source server software for doing home automation, built in perl and meant to be run on any kind of full time 24/7 computer, like a Raspberry Pi. It was made in Germany but has full English documentation.
+Every single result for FHEM was from Germany. So I picked the first one and got going. Looking up [FHEM](https://www.fhem.de/) first on Google I found that it is an open source server software for doing home automation, built in perl and meant to be run on any kind of full time 24 /7 computer, like a Raspberry Pi. It was made in Germany but has full English documentation.
 ![](/images/100Days/Day14/fhem.png)
 Since I read that the servers were telnet enabled I first tried connecting to this IP via telnet on port 23. It was closed, so then I did a port scan via `nmap`, and wound up getting some errors that I still don't fully understand.
 

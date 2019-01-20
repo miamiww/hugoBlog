@@ -1,9 +1,10 @@
 +++
 title = "LocalNet Adventure LA!!  Reference Page"
+author = "alden"
 date = 2019-01-18T18:43:52-08:00
 draft = false
 tags = []
-categories = []
+categories = ["los angeles"]
 +++
 
 ![](https://s26913.pcdn.co/wp-content/uploads/2017/12/business-hackers.jpg)
@@ -76,7 +77,7 @@ if something is running and you want it to stop you can hit `control` and `c` at
 ## Important and Useful Software
 
 #### networks
-* [Herbivore](github.com/samatt/herbivore/releases) - Mac only
+* [Herbivore](https://github.com/samatt/herbivore/releases) - Mac only
 * [Wireshark](https://www.wireshark.org/)
 * [nmap](https://nmap.org/)
 * [traceroute](https://en.wikipedia.org/wiki/Traceroute)

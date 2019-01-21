@@ -8,7 +8,7 @@ categories = []
 +++
 
 ![](https://s26913.pcdn.co/wp-content/uploads/2017/12/business-hackers.jpg)
-You can download the slides [here](https://www.dropbox.com/s/qzp5lny2b4xmg5o/localnetadventure2.pptx?dl=0)
+You can download the slides [here](https://www.dropbox.com/s/yqhubcvs3k0bxh1/LocalNetAdventure3.pptx?dl=0)
 
 ## Some Useful Command Line Commands
 * `man` - opens the manual for a command

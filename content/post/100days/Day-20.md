@@ -11,7 +11,7 @@ Oh what a tangled web we weave. I'm not really sure what's going on with this on
 ## υηκηοωη ιδεηեτγ on 62.23.216.99
 So I looked for things running on ports 5001. One of the first ones I saw was named "υηκηοωη ιδεηեτγ" which, naturally, got me pretty interested.
 ![](/images/100Days/Day20/ssl.png)
-Going to their IP in a browser automatically tried for https but had a certificate error, and I was really struck by the url for which their certificate had been issued, which is to say that nyc-212.odin.biz sounds fake as hell. Thanks to Azalea Banks I know that 212 is an area code for NYC so at least that checked out with the phone theme. Let's come back to odin.biz in a bit.
+Going to their IP in a browser automatically tried for https but had a certificate error, and I was really struck by the url for which their certificate had been issued, which is to say that nyc-212.odin.biz sounds fake as hell. Thanks to [Azealia Banks](https://www.youtube.com/watch?v=i3Jv9fNPjgk) I know that 212 is an area code for NYC so at least that checked out with the phone theme. Let's come back to odin.biz in a bit.
 
 Proceeding along to the IP prompts a login for υηκηοωη ιδεηեτγ. The login page is very pretty, there is a beach and some birds in the foreground and some mountains in the background. Again, we'll come back to this page later.
 ![](/images/100Days/Day20/unknown.png)

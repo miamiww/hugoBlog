@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/ITP/ITPBlog
+#	cd ~/ITP/ITPBlog
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 cd public

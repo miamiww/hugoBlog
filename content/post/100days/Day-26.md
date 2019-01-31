@@ -26,7 +26,7 @@ PORT     STATE    SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 20.35 seconds
 ```
-What's that on port 5555? Freeciv, as in Free [Civilization](https://en.wikipedia.org/wiki/Civilization_(series))? [The open source implementation of blockbuster game franchise Civilization]((http://www.freeciv.org/))? [Built in 1996 and still looks the same even though it's been in steady beta development for _23 years_](https://en.wikipedia.org/wiki/Freeciv)? I was a little suspicious, because ports are frequently used for things other than what the common label is for them, especially snappy all the same number ones like 5555. I found that it was closed to TCP connections but UDP was working! That would make sense if this were a Freeciv server, which would require real time gaming.
+What's that on port 5555? Freeciv, as in Free [Civilization](https://en.wikipedia.org/wiki/Civilization_(series))? [The open source implementation of blockbuster game franchise Civilization](http://www.freeciv.org/)? [Built in 1996 and still looks the same even though it's been in steady beta development for _23 years_](https://en.wikipedia.org/wiki/Freeciv)? I was a little suspicious, because ports are frequently used for things other than what the common label is for them, especially snappy all the same number ones like 5555. I found that it was closed to TCP connections but UDP was working! That would make sense if this were a Freeciv server, which would require real time gaming.
 ```
 ➜  sandbox git:(master) ✗ nc -vu  5.136.117.163 5555
 found 0 associations

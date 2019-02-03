@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 29"
+title = "Shodan Stories Day 29: Crypto World in Santa Monica, Trello Boards, Tokenization, and the Vectorialists"
 date = 2019-02-01T23:01:04-05:00
 draft = false
 tags = []

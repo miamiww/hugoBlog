@@ -15,7 +15,7 @@ The name of this web server, running on port 8080, is "Serveur Minitel 3614 TEAS
 ![](/images/100Days/Day37/teasermodems.png)
 Minitel...
 ![](/images/100Days/Day37/bomb.png)
-Minitel! The web before the Web! Minitel! The France Wide Web! The little telephone line modems with the black and white terminals. The tiny boxes, the closed systems, the terrible, but beautiful graphics.
+Minitel! The web before the Web! Minitel! The France Wide Web! The little telephone line modems with the black and white terminals. The tiny boxes, the closed systems, the terrible,  beautiful graphics.
 
 Minitel was a network all over France, beginning in the late 70s and lasting all the way until 2012. It ran over the phone line, allowed you to graphically connect to different services where you could join a chatroom, pay a bill, check the weather, message your friend, etc. All in the 80s, long before websites existed. Before HTTP existed. It was the technical marvel of the world. In the 80s, France really was the height of modernity. Everyone else just had fax machines. It was a hugely expensive piece of infrastructure, a vast government project. All citizens got a free Minitel terminal. Imagine a government giving out free laptop computers to all of its citizens.
 

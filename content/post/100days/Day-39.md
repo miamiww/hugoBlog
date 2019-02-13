@@ -48,8 +48,8 @@ That just leaves us with 8086, running a service called [Jackett](https://github
 ![](/images/100Days/Day39/jackett.png)
 Jackett seems like more of a general-purpose torrent to download manager. I found that they were using it just for snatching torrent files from a private torrent tracker called [IPTorrents](https://iptorrents.com/login.php), and they were primarily using it for anime. Heck yeah. Looks like they had just downloaded a show called "[That Time I got Reincarnated as a Slime](https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime)"
 ![](/images/100Days/Day39/slime.png)
-I ended up watching the first episode. It's about a laid back man who is killed by a mass murderer and then is reincarnated as a slime creature in a fantasy videogame-esque world. It wasn't really my thing, but had reasonably well crafted overarching narratives of finding sanctuary in fantasy in reaction to trauma, the arbitrariness of tragedy, and of persevering while dealing with pain and loss. Another character watches her mother die during the Tokyo firebombing and is about to die herself when she's yanked out of reality by someone summoning her into the videogame world by accident (they wanted a fire demon or something). It's a little hokey though, and trades a bit too much in 8 bit nostalgia.
+I ended up watching the first episode. It's about a laid back man who is killed by a mass murderer and then is reincarnated as a slime creature in a fantasy videogame-esque world. It wasn't really my thing, but had reasonably well crafted overarching narratives of finding sanctuary in fantasy in reaction to trauma, the arbitrariness of tragedy, and of persevering while dealing with pain and loss. Another character watches her mother die during the Tokyo firebombing and is about to die herself when she's yanked out of reality by someone summoning her into the videogame world by accident (they wanted a fire demon or something). It's a little hokey though, and some of the emotional notes seem forced and overdone.
 
 ![](/images/100Days/Day39/slime2.png)
 
-See you tomorrow.
+Whatta face! At least the slime is very cute. See you tomorrow.

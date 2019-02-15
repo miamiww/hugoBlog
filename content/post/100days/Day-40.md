@@ -39,4 +39,4 @@ My first hunch was "secure shell url". Wrong. ssurl is not a commonly used acron
 ![](/images/100Days/Day40/shadowsocks.png)
 Finally I arrived here, to [Shadowsocks](https://en.wikipedia.org/wiki/Shadowsocks). From Wikipedia: "Shadowsocks is a free and open-source encrypted proxy project, widely used in mainland China to circumvent Internet censorship." Of course! Proxies! Somehow my brain was blocking out the word "proxy" and I had to reconstruct the idea in my own head before I could search for it. As I'm sure you can now guess, ssurl stands for shadowsocks url and is the url created by a proxy server when running shadowsocks and is what it uses for tunneling.
 
-I'm sure you're wondering: how long exactly were you searching on Google? An hour? Two? Well I'm here to say life is a little richer if some of the mysteries are get left unsolved. See you tomorrow.
+I'm sure you're wondering: how long exactly were you searching on Google? An hour? Two? Well I'm here to say life is a little richer if some of the mysteries get left unsolved. See you tomorrow.

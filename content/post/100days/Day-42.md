@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 42: Party Mode in Kleppestø, Yamaha Receivers, "
+title = "Shodan Stories Day 42: Party Mode in Kleppestø, Yamaha Receivers, and Incredible Web Design"
 date = 2019-02-14T22:41:11-05:00
 draft = false
 tags = []

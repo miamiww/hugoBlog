@@ -6,7 +6,7 @@ tags = []
 categories = ["100 days"]
 +++
 
-Another day another search. Today I found a shared search for "emule". "What's an emule?" I asked myself, and dove into the search.
+Another day another search. Today I found a shared search for "emule". "What's an emule?" I asked myself, and dove in.
 
 ## An eMule on 87.216.176.220
 [eMule](https://en.wikipedia.org/wiki/EMule) is an "electronic mule", duh. It's a kind of peer to peer software, different from bittorent, but I'm not sure exactly how. Every explanation I've found on how it works is a bit over my head, or at least over my attention span. It seemed like eMule was mostly popular in Europe, and I picked a result in Spain with eMule running on port 8000.

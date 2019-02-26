@@ -6,7 +6,7 @@ tags = []
 categories = ["thesis"]
 +++
 
-This past weekend I was speaking at the [Schemers, Scammers, and Subverters Symposium](http://schemersscammers.club/) in Portland, OR, and I asked the organizers if I could also run a prototype of my thesis at the event. Obviously I didn't describe it as such to them, in keeping with the spirit of the event I said that I had a fully polished performance ready named "Future's Market". As part of the conference they were also running a market called "The Totally Honest Barter Bazaar", and they told me I could take up a little corner of the room in order to hawk my wears.
+This past weekend I was speaking at the [Schemers, Scammers, and Subverters Symposium](http://schemersscammers.club/) in Portland, OR, and I asked the organizers if I could also run a prototype of my thesis at the event. Obviously I didn't describe it as such to them, in keeping with the spirit of the event I said that I had a fully polished performance ready named "Future's Market". As part of the conference they were also running a market called "The Totally Honest Barter Bazaar", and they told me I could take up a little corner of the room in order to hawk my wares.
 
 ![](/images/Thesis/FutureMarket.JPG)
 I quickly lasercut a little sign a few hours before my flight and then came up with a menu of things to sell while in the air.

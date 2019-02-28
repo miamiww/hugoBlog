@@ -1,9 +1,9 @@
 +++
 title = "Shodan Stories Day 55: Dancing with Skunks and Annotating Goats in Fremont, Ornamental Hermits, Gopherspace, and the Mysteries of Time"
 date = 2019-02-27T13:39:11-05:00
-draft = true
+draft = false
 tags = []
-categories = []
+categories = ["100 days"]
 +++
 
 

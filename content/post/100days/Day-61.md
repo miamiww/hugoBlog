@@ -3,7 +3,7 @@ title = "Shodan Stories Day 61: Printing Skulls in Springfield, Tautulli Plex, a
 date = 2019-03-05T14:00:02-05:00
 draft = false
 tags = []
-categories = []
+categories = ["100 days"]
 +++
 
 Today's episode is again taken off of the recent searches. I saw someone searching for "octoprint -login -authenticate", and decided I'd take a look. Turns out [OctoPrint](https://octoprint.org/) is a web interface for 3D printers that let you remotely monitor and control your in progress jobs.

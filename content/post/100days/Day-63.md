@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 63: Securities Trading in Hong Kong, Ghidra vs IDA Pro, and the Ever Popular Java Debugger Exploit"
+title = "Shodan Stories Day 63: Securities Trading in Hong Kong, Ghidra vs IDA Pro, and the Ever Popular Insecure Java Debugger"
 date = 2019-03-07T21:20:35-05:00
 draft = false
 tags = []

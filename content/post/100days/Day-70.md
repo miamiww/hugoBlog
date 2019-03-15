@@ -1,5 +1,5 @@
 +++
-title = "Shodan Stories Day 70: Engineering Consulting in Tangier, WampServer, and You'll Always Have a Job with PHP"
+title = "Shodan Stories Day 70: Engineering Consulting in Tangier, WampServer, CORS the Silent Killer, and You'll Always Have a Job with PHP"
 date = 2019-03-14T22:18:19-04:00
 draft = false
 tags = []
@@ -27,12 +27,14 @@ parent:         197.230.0.0 - 197.230.255.255
 ```
 That confirmed for me what Shodan had already told me, that this IP was in Morocco, as Tanger Med is the name of a [huge port complex in Tangier](https://www.tangermed.ma/en/), and Orange Maroc is [the Moroccan subsidiary of Orange, the French telecom giant](https://en.wikipedia.org/wiki/Orange_S.A.).
 
-According to their [LinkedIn page](https://www.linkedin.com/company/tme-tanger-med-engineering-/about/), Tanger Med Engineering is a subsidiary of the Tanger Med ownership company, and specializes in international consulting on large-scale infrastructure engineering. Now for something interesting. Tanger Med Engineering's website, which their LinkedIn indicates is www.tme.ma, does not work, giving a "refused to connect" error. And I think I know why. Let's get back to the original IP.
+According to their [LinkedIn page](https://www.linkedin.com/company/tme-tanger-med-engineering-/about/), Tanger Med Engineering is a subsidiary of the Tanger Med ownership company, and specializes in international consulting on large-scale infrastructure engineering. Now for something interesting. Tanger Med Engineering's website, which their LinkedIn indicates is www.tme.ma, does not work, giving a "refused to connect" error. It's specifically a CORS error: "Refused to display 'https://www.tangermed.ma/en/' in a frame because it set 'X-Frame-Options' to 'sameorigin'." And I think I know why. Let's get back to the original IP.
 ![](/images/100Days/Day70/firstlook.png)
 The website it's running is a configuration page for a [WampServer](http://www.wampserver.com/en/). WampServer is "a Windows web development environment which allows you to create web applications with Apache2, PHP and a MySQL database". Most of those little links you see there are just full of PHP, and I'm reminded of a Vine video I saw years ago that was just a fake PHP ad that said "You'll always have a job with PHP". PHP has been going strong for almost 25 years, but Vine is gone forever. RIP Vine.
 
 My own life is a little too short to spend too much time looking at PHP, so I focused on the two non-PHP links, TME and TMMS down at the bottom. Now I'm sure you've guessed it already, TME does indeed stand for Tanger Med Engineering, and yes indeed, this is their missing website.
 ![](/images/100Days/Day70/tme.png)
-Why is it here? My guess is that they are working on it, and this WampServer is a Tanger Med staging ground for web development. I don't know why they wouldn't just host a placeholder or an older version of their website at their main URL, but what do I know.
+Why is it here? My guess is that they are working on it, and this WampServer is a Tanger Med staging ground for web development. Maybe it broke, and they set the original URL to show instead a frame of the Tanger Med main page, but it isn't working because they didn't configure the CORS on the main page to allow for that kind of redirect. Have they noticed? Are they worried? This seems like a big problem for a "international consulting" group. I guess 20 years ago it wouldn't have been too weird not to have a web page that worked. Times have changed.
 ![](/images/100Days/Day70/tmms.png)
-TMMS stands for Tanger Med Marine Simulator, which is another subsidiary of Tanger Med. They do training for ship captains and pilots. It's specifically... a [room made to look like a boat helm](http://www.tmpa.ma/en/activites-services/tanger-med-marine-simulator/)?
+As for the TMMS, it stands for Tanger Med Marine Simulator, which is another subsidiary of Tanger Med. They do training for ship captains and pilots. It's specifically... a [room made to look like a boat helm](http://www.tmpa.ma/en/activites-services/tanger-med-marine-simulator/)?
+
+Well hopefully they get it sorted out soon. See you tomorrow.

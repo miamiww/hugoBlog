@@ -1,9 +1,9 @@
 +++
 title = "Shodan Stories Day 80: Managing Apartment Security in Bangkok, IoT Defacements, and My Wifi Video Door Lock Makes Me More Safe Because It Lets Anyone Remotely Monitor My Home For Intruders"
 date = 2019-03-27T11:26:26-04:00
-draft = true
+draft = false
 tags = []
-categories = []
+categories = ["100 days"]
 +++
 
 Today I saw a search for "comelit multi apartment gateway". Sounded pretty interesting so I jumped in. The query was "input_box==true window.open reboot.html"
@@ -20,4 +20,4 @@ I can see the room numbers and _door unlock codes_ for every apartment in the bu
 
 I found TM on [defacer.id](https://defacer.id), the website that ranks web site vandals based on their defacements. [His page on the site](https://defacer.id/archive/attacker/toxic-mask) indicates they've vandalized 1249 websites since starting in 2017.
 ![](/images/100Days/Day80/toxicmask.png)
-This is their vandal tag. Looks way more impressive than the one one the lock gateway, but I guess that IoT configuation pages don't give you too much to work off of. See you tomorrow.
+This is their vandal tag. Looks way more impressive than the one one the lock gateway, but I guess that IoT configuration pages don't give you too much to work off of. See you tomorrow.

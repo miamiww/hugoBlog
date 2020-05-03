@@ -1,1 +1,12 @@
-<link href="http://alden.website/images/flower.png" rel="icon" type="image/x-icon">
+<header>
+	<div class="main">
+		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+    <link href="http://alden.website/images/flower.png" rel="icon" type="image/x-icon">
+
+	<nav>
+		{{ range .Site.Menus.main }}
+		<a href="{{ .URL }}">{{ .Name }}</a>
+		{{ end }}
+	</nav>
+</header>

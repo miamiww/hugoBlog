@@ -15,11 +15,13 @@ First it's very important to take care of yourself out there when you start poki
 My favorite VPN is [Nord](https://nordvpn.com/), and I use the [uMatrix](https://github.com/gorhill/uMatrix) browser extension in all my browsers to control what code my browsers are running.
 
 ## Online Tools
+
 * [Shodan](https://www.shodan.io/) - search engine for anything connected to the internet!
 * [PublicWWW](https://publicwww.com/) - search engine for websites' source code!
 * [Wigle](https://wigle.net/) - search engine for wifi networks!
 
 ## Command Line Tools
+
 * `host` - gives you the IP address of any domain name by querring your [DNS of choice](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
 * `whois` - queries the [WhoIs database](https://whois.icann.org/en) to get a variety of information about a domain or IP address

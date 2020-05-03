@@ -1,9 +1,9 @@
-theme = 'hugo-kiera'
+theme = 'archie'
 baseURL = 'http://blog.alden.website/'
 disablePathToLower = true
 enableEmoji = true
 languageCode = 'en-us'
-title = "Alden's ITP Home"
+title = "Alden's Blog Home"
 comments = true
 [menu]
   #
@@ -13,6 +13,13 @@ comments = true
   #   pre = "<i class='fa fa-heart'></i>"
   #   url = "/about/"
   #   weight = -110
+
+  [[menu.main]]
+    name = "Categories"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories"
+    weight = -100
 
   [[menu.main]]
     name = "Alden's main site"
@@ -29,7 +36,9 @@ comments = true
 [params]
     disqusShortname = "blogalden"
     DisqusShortname = "blogalden"
-    enableDisqus = true
+    enableDisqus = false
+    subtitle = "Most of these blog posts are about projects from my time at the Interactive Telecommunications Program at NYU, which I attended from 2017-2019. Take a look through and take a step back into time with me, to an earlier era, a simpler time when we all knew the rules."
+
 
 [taxonomies]
    category = "categories"

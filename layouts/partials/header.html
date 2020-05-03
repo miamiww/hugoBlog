@@ -1,45 +1,41 @@
-<!doctype html>
-
-<html lang="{{ .Site.LanguageCode | default "en" }}">
-
 <head>
-  <title>{{ .Site.Title }}</title>
-  {{ partial "meta" . }}
-  {{ partial "header_includes" . -}}
-  <link href="http://alden.website/images/flower.png" rel="icon" type="image/x-icon">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	{{- $title := ( .Title ) -}}
+	{{- $siteTitle := ( .Site.Title ) -}}
+	{{- if .IsHome -}}
+	<title>{{ $siteTitle }} {{ if isset .Site.Params "subtitle" }}- {{ .Site.Params.Subtitle }}{{ end }} </title>
+	{{- else -}}
+	<title>{{ $title }} - {{ $siteTitle }}</title>
+	{{- end -}}
+
+	{{- if isset .Site.Params "favicon" -}}
+	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
+	{{- end -}}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ with .OutputFormats.Get "rss" -}}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+	{{- template "_internal/opengraph.html" . -}}
+	{{- template "_internal/twitter_cards.html" . -}}
+	{{ if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	{{- else if (isset .Site.Params "social") -}}
+		<script src="{{ .Site.BaseURL }}js/feather.min.js"></script>
+	{{ end }}
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/main.css" />
+	{{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/dark.css" {{ if eq .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)"{{ end }} />
+	{{- end -}}
+	{{- range .Site.Params.customJS }}
+	{{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+	<script src="{{ . }}"></script>
+	{{- else }}
+	<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+	{{- end }}
+	{{- end }}
 </head>
-
-<body>
-  <div id="container">
-    <header>
-      <h1>
-                <a href="{{ relURL "/" }}">{{ .Site.Title | markdownify }}</a>
-            </h1>
-
-      <ul id="social-media">
-        {{ if .Site.Author.twitter }}
-        <li><a href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }} {{ if .Site.Author.linkedin }}
-        <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }} {{ if .Site.Author.github }}
-        <li><a href="https://github.com/{{ .Site.Author.github }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }} {{ if .Site.Author.gitlab }}
-        <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fa fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }} {{ if .Site.Author.facebook }}
-        <li><a href="https://www.facebook.com/{{ .Site.Author.facebook }}"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }} {{ if .Site.Author.instagram }}
-        <li><a href="https://instagram.com/{{ .Site.Author.instagram }}"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }}
-      </ul>
-      {{ with .Site.Params.tagline }}
-      <p><em>{{ . | markdownify }}</em></p>
-      {{ end }}
-
-      {{ "<!-- isso -->" | safeHTML }}
-        <!-- <script data-isso="http://alden.website:8181" src="http://alden.website:8181/js/embed.min.js"></script> -->
-      {{ "<!-- end isso -->" | safeHTML }}
-    </header>
-
-    {{ partial "nav" . }}
-
-    <main>

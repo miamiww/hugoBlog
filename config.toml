@@ -1,5 +1,5 @@
 theme = 'archie'
-baseURL = 'http://blog.alden.website/'
+baseURL = 'https://blog.alden.website/'
 disablePathToLower = true
 enableEmoji = true
 languageCode = 'en-us'
@@ -25,7 +25,7 @@ comments = true
     name = "Alden's main site"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
-    url = "http://alden.website"
+    url = "https://alden.website"
     weight = -100
 
 # [sitemap]

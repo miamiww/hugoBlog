@@ -37,7 +37,7 @@ comments = true
     disqusShortname = "blogalden"
     DisqusShortname = "blogalden"
     enableDisqus = false
-    subtitle = "Most of these blog posts are about projects from my time at the Interactive Telecommunications Program at NYU, which I attended from 2017-2019. Take a look through and take a step back into time with me, to an earlier era, a simpler time when we all knew the rules."
+    subtitle = "The personal blog of Alden."
 
 
 [taxonomies]

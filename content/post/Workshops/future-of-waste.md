@@ -6,6 +6,8 @@ tags = []
 categories = ["workshop"]
 +++
 
+![a pile of broken old computers reaching up into the sky](https://www.nydailynews.com/resizer/R-GQ_CYAjlzQmQYNhodvW5v66c4=/800x532/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/KAF6MGZ24CWIPAUNCEOWPJANCA.jpg)
+
 > [_"Trash carries dystopia within"_](https://books.google.com/books?id=gbo0CwAAQBAJ&pg=PA17&lpg=PA17&dq=%22Trash+carries+dystopia+within%22&source=bl&ots=CMRP9kjyrh&sig=ACfU3U1JPcO-sfHQ_Rmn6Bcrsq8V4rcXZg&hl=en&sa=X&ved=2ahUKEwipwpvSq6zvAhWGVN8KHV6aCb0Q6AEwAHoECAUQAw#v=onepage&q=%22Trash%20carries%20dystopia%20within%22&f=false) - Maite Zubiaurre
 
 The Future of Waste is a workshop for imagining no-waste futures, dystopian and otherwise.

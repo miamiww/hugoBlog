@@ -25,7 +25,7 @@ comments = true
     name = "Alden's main site"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
-    url = "https://alden.website"
+    url = "http://alden.website"
     weight = -100
 
 # [sitemap]

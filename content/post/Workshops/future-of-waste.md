@@ -11,6 +11,8 @@ categories = ["workshop"]
 > [_"Trash carries dystopia within"_](https://books.google.com/books?id=gbo0CwAAQBAJ&pg=PA17&lpg=PA17&dq=%22Trash+carries+dystopia+within%22&source=bl&ots=CMRP9kjyrh&sig=ACfU3U1JPcO-sfHQ_Rmn6Bcrsq8V4rcXZg&hl=en&sa=X&ved=2ahUKEwipwpvSq6zvAhWGVN8KHV6aCb0Q6AEwAHoECAUQAw#v=onepage&q=%22Trash%20carries%20dystopia%20within%22&f=false) - Maite Zubiaurre
 
 The Future of Waste is a workshop for imagining no-waste futures, dystopian and otherwise.
+
+
 [slides](https://www.dropbox.com/s/zrlhy0y38lc0wyk/futureofwastemarch132021.pptx?dl=0)
 
  ## Why Technotrash?
@@ -24,10 +26,11 @@ Time to have a lot of fun!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 In this workshop, we will look at several contemporary technologies and work collaboratively to reimagine their design for a future in which these global systems can no longer be relied upon. The designs should be _as weird as they need to be_, realism is encouraged but not necessary. All that designs require is an in-fiction justification. They can be global, regional, or local in scope and distribution, there's no need for universal solutions but no need to hold back either. If you are able to draw it that would be fun but it is not at all necessary. Participants will work in small teams to develop their speculative designs, with each team showcasing their favorite new products to the group at the end.
 
-The schedule is as follows:
+### The schedule:
+
 * Introduction - 6 minutes
 * Breakout rooms - 35 minutes
-	* Introductions - 6 minutes
+* Introductions - 6 minutes
 	* First design - 9 minutes
 	* Second design - 9 minutes
 	* Third design - 9 minutes
@@ -35,29 +38,32 @@ The schedule is as follows:
 * Sharing designs - 16 minutes
 * Final thoughts - 3 minutes
 
-For introductions say your:
+#### For introductions say your:
+
 * name, 
 * pronouns, 
 * location,  
 * what you do in life, briefly
 
 
-Here are some guiding questions for the design for inspiration:
+#### Here are some guiding questions for the design for inspiration:
+
 * Is it a product or a system?
 * What is it made out of?
 * Where are its components sourced?
 * How is it distributed?
 * Who gets access to it?
 * How is it manufactured?
-	
 
-When presenting:
-*	Briefly introduce your scenario and any embellishments your group added
-*	Describe your design and how it fits into the society of your scenario
-	
+#### When presenting your design:
+
+* Briefly introduce your scenario and any embellishments your group added
+* Describe your design and how it fits into the society of your scenario
    
- ### Breakout Room Notepads
- Each breakout room is assigned a notepad for the collaborative design work to occur. Each notepad has a scenario attached, use the notepad with the same number as your breakout group
+### Breakout Room Notepads
+
+Each breakout room is assigned a notepad on which you can write notes and collaborate on your designs. Each notepad has its scenario attached
+
 * [Breakout Room 1](https://pad.riseup.net/p/future-of-waste-1)
 * [Breakout Room 2](https://pad.riseup.net/p/future-of-waste-2)
 * [Breakout Room 3](https://pad.riseup.net/p/future-of-waste-3)
@@ -69,7 +75,7 @@ When presenting:
 
 
 
-### Jumping Off Points to Further Work
+## Jumping Off Points to Further Work
 If the design exercises really piqued your interest, I recommend researching how the type of design work we did today gets done in industry, by reading about [life cycle assessment](https://en.wikipedia.org/wiki/Life-cycle_assessment). A good starting place for a book is [Cradle to Cradle by Michael Braungart and William McDonough](https://mcdonough.com/writings/cradle-cradle-remaking-way-make-things/). 
 
 If waste in general is interesting to you on an academic level and you aren't already involved in trash research, I recommend exploring the discipline of [discard studies](https://discardstudies.com/).
@@ -80,7 +86,7 @@ If you want to see speculative design practiced in its professional context, the
 
 If you are interested in sustainability activism around waste, I recommend finding or starting a group in your local context. In New York City, where I live, there is [Trash Club](https://trashclub.online/). As a non-professional activist, working locally is more personally rewarding than working in a global or national context. If you are or want to be a professional activist I have no advice, but my heart goes with you and I wish you luck.
 
-### Other Book Recommendations
+## Other Book Recommendations
 If you had a good time at this workshop in any capacity you might like any of these following books, loosely organized by least to most academic:
 
  * [Garbology: Our Dirty Love Affair with Trash - Edward Humes](http://www.edwardhumes.com/garbology)
